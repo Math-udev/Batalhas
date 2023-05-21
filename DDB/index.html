@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+        <title>BATALHAS</title>
+
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.cdnfonts.com/css/pixo-reto-sp" rel="stylesheet">
+        <link href="https://fontawesome.com/"  rel="stylesheet">
+
+    </head>
+    <body>
+        <nav class="navbar" id="logo">
+            <h1 class="logo"> DDB</h1>
+            <ul class="nav-links">
+                <li class="ctn"><a href="#events">Eventos</a></li>
+                <li class="ctn"><a href="#batalhas">Batalhas</a></li>
+                <img src="./img/menu.png"  class="menu-btn"> 
+
+            </ul>
+            
+        </nav>
+
+        <header>
+            <div class="header-content">
+                <h2>Conheça o mundo do Rap</h2>
+                <div class="lineh"></div>
+                <h1>Dev Das Batalhas</h1>
+            </div>
+        </header>
+
+        <section class="events" id="events">
+            <div class="title">
+                <h1>Agenda de Eventos</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/cena.jpeg">
+                    <h4>Festival CENA</h4>
+                    <p>O Festival CENA 2k22 foi um enorme sucesso. Com dezenas de milhares de pessoas reunidas em São Paulo, os três dias foram uma grande celebração do rap, com mais de 100 shows em sua maioria de alto nível divididos entre diversas vertentes do rap com foco maior no trap.</p>
+                    <a href="https://www.instagram.com/cena2k22/" target="_blank" rel="noopener noreferrer" class="ctn">Saiba mais</a>
+                </div>
+                <div class="col">
+                    <img src="./img/nacional.jpg">
+                    <h4>Duelo Nacional de MC's</h4>
+                    <p>O Duelo Nacional de MCs reuniu 32 artistas de todo o Brasil debaixo de um dos viadutos mais tradicionais de BH, o de Santa Tereza; Em 2022, o Duelo Nacional celebra 10 anos. O projeto nasceu em 2012 e ao longo dos anos, seu alcance foi se ampliando gradativamente.   </p>
+                    <a href="https://www.instagram.com/duelonacional/" target="_blank" rel="noopener noreferrer" class="ctn">Saiba mais</a>
+                </div>        
+            </div>
+
+            <head>
+              <meta charset="utf-8" />
+              <title>Draggable Image Slider | CodingNepal</title>
+              <link rel="stylesheet" href="style.css" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+              />
+              <script src="script.js" defer></script>
+            </head>
+
+            <section>
+                <div class="corpo-wrapper" id="batalhas">
+                    <div class="titled">
+                        <h1>Dias de Batalha</h1>
+                        <div class="lined"></div>
+                    </div>
+                    <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel">
+                        <a href="segunda.html" target="_blank" rel="noopener noreferrer"><img src="./img/segunda.jpg" alt="img" draggable="false"/></a>
+                        <a href="terca.html" target="_blank" rel="noopener noreferrer"><img src="./img/terca.jpg" alt="img" draggable="false" /></a>
+                        <a href="quarta.html" target="_blank" rel="noopener noreferrer"><img src="./img/quarta.jpg" alt="img" draggable="false" /></a>
+                        <a href="quinta.html" target="_blank" rel="noopener noreferrer"><img src="./img/quinta.jpg" alt="img" draggable="false" /></a>
+                        <a href="sexta.html" target="_blank" rel="noopener noreferrer"><img src="./img/sexta.jpg" alt="img" draggable="false" /></a>
+                        <a href="sabado.html" target="_blank" rel="noopener noreferrer"><img src="./img/sabado.jpg" alt="img" draggable="false" /></a>
+                        <a href="domingo.html" target="_blank" rel="noopener noreferrer"><img src="./img/domingo.jpg" alt="img" draggable="false" /></a>
+                    </div>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+            </section>
+
+        <div class="footerContainer" id="footer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>             
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#logo">Home</a></li>
+                    <li><a href="#events">Eventos</a></li>
+                    <li><a href="#batalhas">Batalhas</a></li>
+                </ul>
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy;2022; Desgined by<span class="designer">DDB;</span> Email: devdasbatalhas@gmail.com</p>
+            </div>
+        </div>
+
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+
+    </body>
+
+</html>
